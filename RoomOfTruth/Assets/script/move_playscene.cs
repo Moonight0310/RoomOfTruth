@@ -10,4 +10,13 @@ public class move_playscene : MonoBehaviour
     {
         SceneManager.LoadScene("play_scene");
     }
+    public void Click2()
+    {
+        SceneManager.LoadScene("main_scene");
+    }
+
+    public void OnApplicationQuit()
+    {
+        Application.Quit();
+    }
 }

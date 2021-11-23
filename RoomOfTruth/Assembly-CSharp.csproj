@@ -56,9 +56,14 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\script\move_playscene.cs" />
+    <Compile Include="Assets\script\talk_manager.cs" />
     <Compile Include="Assets\script\guest_manager.cs" />
-    <Compile Include="Assets\script\guest_infor.cs" />
+    <Compile Include="Assets\script\move_playscene.cs" />
+    <Compile Include="Assets\script\guest_change.cs" />
+    <Compile Include="Assets\script\guest_check.cs" />
+    <Compile Include="Assets\script\gameManager.cs" />
+    <Compile Include="Assets\script\guest_hairinfor.cs" />
+    <Compile Include="Assets\script\guest_clothesinfor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

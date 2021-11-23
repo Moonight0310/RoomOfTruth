@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 820236727014529043}
   - component: {fileID: 820236727014529042}
   m_Layer: 0
-  m_Name: eyes_idle_00
+  m_Name: eyes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -176,8 +176,9 @@ GameObject:
   - component: {fileID: 820236728156265114}
   - component: {fileID: 5194588945502666270}
   - component: {fileID: 1693216868451299540}
+  - component: {fileID: 7392875078930459706}
   m_Layer: 0
-  m_Name: hair_00_00_00
+  m_Name: hair
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -282,6 +283,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 293.01758, y: 322.67642}
   m_EdgeRadius: 0
+--- !u!114 &7392875078930459706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 820236728156265108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d880601befae0614ba6ab4e93467319b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Hair: {fileID: 820236728156265114}
 --- !u!1 &820236728352894594
 GameObject:
   m_ObjectHideFlags: 0
@@ -293,8 +307,9 @@ GameObject:
   - component: {fileID: 820236728352894593}
   - component: {fileID: 820236728352894592}
   - component: {fileID: 8507974204253137979}
+  - component: {fileID: 5360377217952324004}
   m_Layer: 0
-  m_Name: clothes_00_00_00
+  m_Name: clothes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -391,6 +406,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 347.86987, y: 655.83704}
   m_EdgeRadius: 0
+--- !u!114 &5360377217952324004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 820236728352894594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f15173cb2d3d6764f891134bef672351, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Cloths: {fileID: 820236728352894592}
 --- !u!1 &820236728715665995
 GameObject:
   m_ObjectHideFlags: 0
@@ -401,8 +429,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2793193816844115797}
   - component: {fileID: 820236728715665994}
-  - component: {fileID: 2777535176361223079}
   - component: {fileID: 1348743287419137844}
+  - component: {fileID: 7941731633021826685}
   m_Layer: 0
   m_Name: guest
   m_TagString: Untagged
@@ -484,27 +512,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2777535176361223079
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 820236728715665995}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33a384f756ed5ad4fbc3050db051a863, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Eyes: {fileID: 820236727014529042}
-  Rip: {fileID: 820236727512602507}
-  Hair: {fileID: 820236728156265114}
-  Cloths: {fileID: 820236728352894592}
-  eyes: []
-  rip:
-  - {fileID: 21300000, guid: 16c65ee1631540d4981b179f9f4d1794, type: 3}
-  hair: []
-  cloths: []
 --- !u!222 &1348743287419137844
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -513,3 +520,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 820236728715665995}
   m_CullTransparentMesh: 1
+--- !u!114 &7941731633021826685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 820236728715665995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c79b445ce32264408fffcb17863e6fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Eyes: {fileID: 820236727014529042}
+  Rip: {fileID: 820236727512602507}
+  Hair: {fileID: 820236728156265114}
+  Cloths: {fileID: 820236728352894592}
+  eyes: []
+  rip: []
+  hair: []
+  cloths: []
